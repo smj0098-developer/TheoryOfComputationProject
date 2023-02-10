@@ -58,6 +58,35 @@ print(dfa1.subtract(dfa2))
 # print(DFA.areSeparatedSets(dfa1,dfa2))
 
 
+# phase 3
+
+# myMinimizer = Minimize()
+# minimizedDFA = myMinimizer.minimizer(dfa1)
+# print(minimizedDFA.delta)
+
+
+
+
+#
+# nfa1 = NFA(
+#     Q={'q0', 'q1', 'q2','q3','q4','q5'},
+#     sigma={'a', 'b','e'}, # e stands for lambda
+#     initialState='q0',
+#     accept={'q2'},
+#     delta={
+#         'q0': {'a': {'q1'}, 'e': {'q3'}},
+#         'q1': {'a': {'q3','q2'}},
+#         'q2': {'a': {'q3'}, 'b': {'q3'}},
+#         'q3': {'a': {'q4'}},
+#         'q4': {'a': {'q2'}, 'b': {'q1'}},
+#         'q5': {'a': {'q1','q4'}, 'b': {'q2'}}
+#
+#     }
+# )
+#
+# nfa1.nfaToDfa()
+
+
 
 
 
